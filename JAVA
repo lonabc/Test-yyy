@@ -1,0 +1,23 @@
+
+
+
+public class HelloWorld
+ {
+    public static void main(String[] args){
+     System.out.println("你好，世界。HelloWorld");
+    }
+   
+ }
+
+class B
+{
+public static void main(String[] args)
+ {  B.sumInt(12,89);
+   B.sumInt(27,90);
+ }
+ public static void sumInt(int a,int b)
+  {
+  int z =a+b;
+  System.out.println(a+"+"+b+"="+z);
+  }
+}
